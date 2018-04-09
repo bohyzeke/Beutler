@@ -7,8 +7,10 @@ math.random()
 math.random()
 math.random()
 CodeA = 0
-CodeA = (off + math.random(ttt)) + CodeA * 100
-CodeA = (off + math.random(ttt)) + CodeA * 100
-CodeA = (off + math.random(ttt)) + CodeA * 100
-CodeA = (off + math.random(ttt)) + CodeA * 100
+for i=1,4 do
+	CodeA = (off + math.random(ttt)) + CodeA * 100
+end
 print(CodeA)
+
+
+
